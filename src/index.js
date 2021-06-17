@@ -11,9 +11,20 @@ import {
   faPalette,
   faLaptopCode,
   faTasks,
+  faBars,
+  faTimes,
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, faCheckSquare, faCoffee, faPalette, faLaptopCode, faTasks);
+library.add(
+  fab,
+  faCheckSquare,
+  faCoffee,
+  faPalette,
+  faLaptopCode,
+  faTasks,
+  faBars,
+  faTimes
+);
 
 ReactDOM.render(
   <React.StrictMode>
