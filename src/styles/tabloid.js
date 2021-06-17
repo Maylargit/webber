@@ -1,5 +1,5 @@
-import styled, { css } from "styled-components";
-import { up, down, between, only } from "styled-breakpoints";
+import styled from "styled-components";
+import { up } from "styled-breakpoints";
 import { theme } from "./theme";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -8,22 +8,34 @@ const TabloidStyle = styled.div`
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  width: 75vw;
-  padding: 20px 15px;
+  width: 60vw;
+  padding: 40px 25px;
   cursor: pointer;
+  margin-bottom: 10px;
+
   &:hover {
-    background: ${theme.color.red.light};
+    background: ${theme.color.red.main};
   }
   ${up("md")} {
     width: 200px;
+    margin-bottom: 0;
+    margin-right: 15px;
+  }
+  &:first-child {
+    background: ${theme.color.red.main};
+  }
+  &:last-child {
+    border-bottom: 8px solid ${theme.color.red.main};
   }
 `;
 
 const Heading = styled.h4`
-  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
   margin-bottom: 20px;
   position: relative;
   line-height: 0.8em;
+  margin-top: 60px;
   &:before {
     position: absolute;
     left: 0;
@@ -37,13 +49,24 @@ const Heading = styled.h4`
 
 const Paragrapgh = styled.p`
   margin-top: 0;
-  font-size: 12px;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
 `;
 
-export const Tabloid = ({ logo, heading, content }) => {
+export const TabloidWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  ${up("md")} {
+    flex-direction: row;
+  }
+`;
+
+export const Tabloid = ({ icon, heading, content }) => {
   return (
     <TabloidStyle>
-      <FontAwesomeIcon icon={logo} />
+      <FontAwesomeIcon icon={icon} size="3x" />
       <Heading>{heading}</Heading>
       <Paragrapgh>{content}</Paragrapgh>
     </TabloidStyle>
