@@ -1,5 +1,5 @@
-import styled from "styled-components";
-
+import styled, { css } from "styled-components";
+import { up } from "styled-breakpoints";
 import { theme } from "./theme";
 
 export const Container = styled.main`
@@ -11,5 +11,21 @@ export const Container = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: ${theme.color.black.main};
+
+  ${({ dark }) =>
+    dark &&
+    css`
+      background: ${theme.color.black.main};
+    `}
+
+  ${({ light }) =>
+    light &&
+    css`
+      background: ${theme.color.grey.background};
+      align-items: flex-start;
+
+      ${up("md")} {
+        align-items: center;
+      }
+    `}
 `;

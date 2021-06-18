@@ -6,7 +6,7 @@ import Navigation from "./navigation";
 
 const Header = () => {
   return (
-    <Container>
+    <Container dark>
       <InnerWrapper>
         <Navigation />
         <Jumbotron />

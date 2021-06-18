@@ -23,6 +23,9 @@ const TabloidStyle = styled.div`
   }
   &:first-child {
     background: ${theme.color.red.main};
+    &:hover {
+      background: ${theme.color.black.light};
+    }
   }
   &:last-child {
     border-bottom: 8px solid ${theme.color.red.main};

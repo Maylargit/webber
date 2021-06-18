@@ -13,6 +13,7 @@ import {
   faTasks,
   faBars,
   faTimes,
+  faLongArrowAltRight,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -23,7 +24,8 @@ library.add(
   faLaptopCode,
   faTasks,
   faBars,
-  faTimes
+  faTimes,
+  faLongArrowAltRight
 );
 
 ReactDOM.render(

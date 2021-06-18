@@ -9,9 +9,9 @@ export const theme = {
       light: "#0a0a0a",
     },
     grey: {
-      main: "#737373",
+      main: "#d8d8d8",
       light: "#7f7f7f",
-      background: "#858585",
+      background: "#e6e6e6",
     },
   },
 };
