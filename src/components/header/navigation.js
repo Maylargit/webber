@@ -9,14 +9,19 @@ import {
   ListItem,
   MobileNavWrapper,
   Beta,
+  Atag,
 } from "../../styles/nav";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Links = () => {
   return (
     <Ulist>
-      <ListItem>Services</ListItem>
-      <ListItem>Works</ListItem>
+      <ListItem>
+        <Atag href="#services">Services</Atag>
+      </ListItem>
+      <ListItem>
+        <Atag href="#works">Works</Atag>
+      </ListItem>
       <ListItem>Contact</ListItem>
     </Ulist>
   );

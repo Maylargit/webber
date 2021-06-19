@@ -9,7 +9,7 @@ const Services = () => {
     <Container light>
       <InnerWrapper>
         <HeadingWrapper>
-          <Heading>Works.</Heading>
+          <Heading id="works">Works.</Heading>
           <Anotation>SHARE SOME OF OUR CLIENTS' SATISFACTION ...</Anotation>
         </HeadingWrapper>
         <Cards />

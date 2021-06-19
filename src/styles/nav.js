@@ -68,6 +68,11 @@ export const Beta = styled.sup`
   font-size: 12px;
 `;
 
+export const Atag = styled.a`
+  color: #fff;
+  text-decoration: none;
+`;
+
 export const MobileNavWrapper = styled.div`
   display: none;
   ${({ mobileNav }) =>
