@@ -14,8 +14,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Links = () => {
   return (
     <Ulist>
-      <ListItem>About</ListItem>
       <ListItem>Services</ListItem>
+      <ListItem>Works</ListItem>
       <ListItem>Contact</ListItem>
     </Ulist>
   );
