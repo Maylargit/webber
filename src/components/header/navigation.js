@@ -8,6 +8,7 @@ import {
   Ulist,
   ListItem,
   MobileNavWrapper,
+  Beta,
 } from "../../styles/nav";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -31,7 +32,9 @@ const Navigation = () => {
   console.log(mobileNav);
   return (
     <NavWrapper>
-      <Logo>Godfather Inc .</Logo>
+      <Logo>
+        Godfather Inc .<Beta>BETA</Beta>
+      </Logo>
       <LinkWrapper>
         <DesktopLinks>
           <Links />

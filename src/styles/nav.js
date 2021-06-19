@@ -1,5 +1,6 @@
 import styled, { css } from "styled-components";
 import { up, down } from "styled-breakpoints";
+import { theme } from "./theme";
 
 export const NavWrapper = styled.nav`
   display: flex;
@@ -54,6 +55,12 @@ export const ListItem = styled.li`
     text-decoration: none;
     cursor: pointer;
   }
+`;
+export const Beta = styled.sup`
+  color: ${theme.color.red.main};
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
 `;
 
 export const MobileNavWrapper = styled.div`
