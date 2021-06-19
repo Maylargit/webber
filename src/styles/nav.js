@@ -19,6 +19,11 @@ export const Logo = styled.div`
   ${up("md")} {
     padding-top: 30px;
   }
+  ${({ mobileNav }) =>
+    mobileNav &&
+    css`
+      display: none;
+    `};
 `;
 
 export const DesktopLinks = styled.div`

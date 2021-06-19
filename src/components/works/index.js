@@ -2,7 +2,6 @@ import { Container } from "../../styles/container";
 
 import { InnerWrapper } from "../../styles/InnerWrapper";
 import { Heading, HeadingWrapper, Anotation } from "../../styles/typography";
-import { WorkWrapper } from "../../styles/work";
 import Cards from "./cards";
 
 const Services = () => {

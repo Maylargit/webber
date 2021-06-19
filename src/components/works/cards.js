@@ -1,5 +1,4 @@
 import { WorkWrapper, WorkImg, Card } from ".././../styles/work";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Cards = () => {
   const data = [

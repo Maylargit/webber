@@ -29,10 +29,9 @@ const Navigation = () => {
     setMobileNav(!mobileNav);
   };
 
-  console.log(mobileNav);
   return (
     <NavWrapper>
-      <Logo>
+      <Logo mobileNav={mobileNav}>
         Godfather Inc .<Beta>BETA</Beta>
       </Logo>
       <LinkWrapper>
