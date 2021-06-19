@@ -47,7 +47,7 @@ export const ListItem = styled.li`
   list-style-type: none;
   font-family: "Lato", sans-serif;
   margin-bottom: 25px;
-  font-size: 18px;
+  font-size: 15px;
   z-index: 100000;
 
   ${up("md")} {
