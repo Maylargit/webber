@@ -69,8 +69,11 @@ export const Beta = styled.sup`
 `;
 
 export const Atag = styled.a`
-  color: #fff;
+  color: ${theme.color.black.main};
   text-decoration: none;
+  ${up("md")} {
+    color: #fff;
+  }
 `;
 
 export const MobileNavWrapper = styled.div`
