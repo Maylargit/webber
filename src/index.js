@@ -14,6 +14,9 @@ import {
   faBars,
   faTimes,
   faLongArrowAltRight,
+  faEnvelope,
+  faMobile,
+  faBuilding
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -25,7 +28,10 @@ library.add(
   faTasks,
   faBars,
   faTimes,
-  faLongArrowAltRight
+  faLongArrowAltRight,
+  faEnvelope,
+  faMobile,
+  faBuilding
 );
 
 ReactDOM.render(

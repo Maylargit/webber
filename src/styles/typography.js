@@ -4,6 +4,7 @@ import { theme } from "./theme";
 export const Heading = styled.h2`
   color: ${theme.color.black.main};
   font-family: "Poppins", sans-serif;
+  
 `;
 
 export const Anotation = styled.h6`
