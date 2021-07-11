@@ -1,24 +1,22 @@
-import { Tabloid, TabloidWrapper } from ".././../styles/tabloid";
+import { TabloidWrapper } from "../../styles/tabloid";
+import { Tabloid } from "../../styles/footerTabloid";
 
 const Cards = () => {
   const data = [
     {
       icon: "envelope",
       heading: "Email",
-      content:
-        "enquiries@godfatherng.com",
+      content: "enquiries@godfatherng.com",
     },
     {
       icon: "mobile",
       heading: "Phone",
-      content:
-        "08181234567",
+      content: "08181234567",
     },
     {
       icon: "building",
       heading: "Office",
-      content:
-        "26, Folawiyo Bankole Street Surulere Lagos",
+      content: "26, Folawiyo Bankole Street Surulere Lagos",
     },
   ];
   return (
