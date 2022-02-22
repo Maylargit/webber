@@ -3,7 +3,7 @@ import { up } from "styled-breakpoints";
 import { theme } from "./theme";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const TabloidStyle = styled.div`
+export const TabloidStyle = styled.div`
   background: ${theme.color.black.light};
   color: #ffffff;
   display: flex;
@@ -32,7 +32,7 @@ const TabloidStyle = styled.div`
   }
 `;
 
-const Heading = styled.h4`
+export const Heading = styled.h4`
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   margin-bottom: 20px;
@@ -50,7 +50,7 @@ const Heading = styled.h4`
   }
 `;
 
-const Paragrapgh = styled.p`
+export const Paragrapgh = styled.p`
   margin-top: 0;
   font-size: 14px;
   font-family: "Lato", sans-serif;

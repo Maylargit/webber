@@ -1,9 +1,15 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { theme } from "./theme";
 
 export const Heading = styled.h2`
   color: ${theme.color.black.main};
   font-family: "Poppins", sans-serif;
+
+  ${({ footer }) =>
+    footer &&
+    css`
+      color: #fff;
+    `}
 `;
 
 export const Anotation = styled.h6`
