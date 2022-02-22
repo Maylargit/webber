@@ -13,13 +13,13 @@ const FooterHeading = styled(Heading)`
 `;
 
 const ContactWrapper = styled.div`
-  margin-left: 45px;
+  margin-left: 10px;
 `;
 
 export const Tabloid = ({ icon, heading, content }) => {
   return (
-    <FooterTabloidStyle>
-      <FontAwesomeIcon icon={icon} size="3x" />
+    <FooterTabloidStyle footer='footer'>
+      <FontAwesomeIcon icon={icon} size="1x" />
       <ContactWrapper>
         <FooterHeading>{heading}</FooterHeading>
         <Paragrapgh>{content}</Paragrapgh>

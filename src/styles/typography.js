@@ -14,6 +14,12 @@ export const Heading = styled.h2`
 
 export const Anotation = styled.h6`
   color: ${theme.color.red.main};
+
+  ${({ footer }) =>
+    footer &&
+    css`
+      color: #fafad2;
+    `}
 `;
 
 export const HeadingWrapper = styled.div`

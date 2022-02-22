@@ -9,10 +9,10 @@ const Footer = () => {
     <Container dark>
       <InnerWrapper>
         <HeadingWrapper>
-          <Heading id="services" footer>
-            Footer.
+          <Heading id="contact" footer>
+            Contact
           </Heading>
-          <Anotation>IT IS OUR BRAND, OUR HALLMARK</Anotation>
+          <Anotation id="contact" footer>TO GET IN TOUCH ...</Anotation>
         </HeadingWrapper>
         <Cards />
       </InnerWrapper>

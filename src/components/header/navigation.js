@@ -22,7 +22,9 @@ const Links = () => {
       <ListItem>
         <Atag href="#works">Works</Atag>
       </ListItem>
-      <ListItem>Contact</ListItem>
+      <ListItem>
+        <Atag href="#contact">Contact</Atag>
+      </ListItem>
     </Ulist>
   );
 };

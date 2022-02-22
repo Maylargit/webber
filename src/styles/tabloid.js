@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { up } from "styled-breakpoints";
 import { theme } from "./theme";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -30,6 +30,19 @@ export const TabloidStyle = styled.div`
   &:last-child {
     border-bottom: 8px solid ${theme.color.red.main};
   }
+  ${({ footer }) =>
+    footer &&
+    css`
+     &:hover {
+    background: none;
+  }
+      &:first-child{
+          background: none;
+      }
+      &:last-child {
+    border-bottom: 0px none;
+  }
+    `};
 `;
 
 export const Heading = styled.h4`

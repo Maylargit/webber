@@ -16,14 +16,14 @@ const Cards = () => {
     {
       icon: "building",
       heading: "Office",
-      content: "26, Folawiyo Bankole Street Surulere Lagos",
+      content: " Bankole Street Surulere Lagos",
     },
   ];
   return (
     <TabloidWrapper>
       {data.map((d, i) => {
         return (
-          <Tabloid
+          <Tabloid id="tabloid" footer
             icon={d.icon}
             heading={d.heading}
             content={d.content}
